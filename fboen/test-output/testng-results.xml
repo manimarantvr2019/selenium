@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Entered text ::Balamurugan@gmail.com]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-14T01:17:37 PDT" name="Default suite" finished-at="2023-07-14T01:18:03 PDT" duration-ms="26306">
+    <groups>
+    </groups>
+    <test started-at="2023-07-14T01:17:37 PDT" name="Default test" finished-at="2023-07-14T01:18:03 PDT" duration-ms="26306">
+      <class name="baseRunner.TestNGBaseRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:17:36 PDT" name="beforeSuite" finished-at="2023-07-14T01:17:37 PDT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="start()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:17:37 PDT" name="start" finished-at="2023-07-14T01:18:03 PDT" duration-ms="26221" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+
+at common.ExtentReport.testStep(ExtentReport.java:17)
+at common.PrintUtils.logMessage(PrintUtils.java:12)
+at common.SeleniumGenerics.enterText(SeleniumGenerics.java:68)
+at pages.LoginPage.enterEmail(LoginPage.java:29)
+at baseRunner.TestNGBaseRunner.start(TestNGBaseRunner.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered text ::Balamurugan@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:18:03 PDT" name="beforeMethod" finished-at="2023-07-14T01:18:03 PDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="beforeSuite()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:18:03 PDT" name="beforeSuite" finished-at="2023-07-14T01:18:03 PDT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+ExtentTest cannot be resolved to a type
+LogStatus cannot be resolved to a variable
+
+at common.ExtentReport.testStep(ExtentReport.java:17)
+at common.PrintUtils.logMessage(PrintUtils.java:12)
+at common.SeleniumGenerics.enterText(SeleniumGenerics.java:68)
+at pages.LoginPage.enterEmail(LoginPage.java:29)
+at baseRunner.TestNGBaseRunner.start(TestNGBaseRunner.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:18:03 PDT" name="afterMethod" finished-at="2023-07-14T01:18:03 PDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="end()[pri:0, instance:baseRunner.TestNGBaseRunner@6440112d]" started-at="2023-07-14T01:18:03 PDT" name="end" finished-at="2023-07-14T01:18:03 PDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- baseRunner.TestNGBaseRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
